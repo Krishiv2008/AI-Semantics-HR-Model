@@ -39,30 +39,30 @@ Name, Skills, Experience (Years), Education, Certifications, Job Role, Salary Ex
 
 The resume screening model uses a composite scoring system to rank candidates based on how well they match the provided job description. The score is calculated as a weighted sum of five core components:
 
-Job Role Similarity-35%	
+Job Role Similarity-39.25%	
 Measures how closely the applicant’s job role matches the job description.
 
-Skill Similarity-30%
+Skill Similarity-37%
 Semantic similarity between listed skills and job requirements.
 
 
-Certification Match-15%
+Certification Match-12.5%
 Relevance of certifications to the job description.
 
-Experience-10%	
+Experience-5.625%	
 Years of experience (normalized using log scale).
 
-Education Level-10%
+Education Level-5.625%
 Degree converted to a ranked score (e.g., PhD > M.Tech > B.Tech, etc.).
 
 ## 🔢 Formula
 
 Final Score = 
-    0.35 * Role Similarity +
-    0.30 * Skill Similarity +
-    0.15 * Certification Similarity +
-    0.10 * Normalized Experience +
-    0.10 * Normalized Education Score
+    0.3925 * Role Similarity +
+    0.37 * Skill Similarity +
+    0.125 * Certification Similarity +
+    0.05625 * Normalized Experience +
+    0.05625 * Normalized Education Score
 
 #### 🎓 Education Ranking
 
