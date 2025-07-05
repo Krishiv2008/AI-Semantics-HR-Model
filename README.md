@@ -5,6 +5,13 @@ An AI-powered(all-MiniLM-L6-v2 model) resume screening app designed for tech com
 
 The project leverages several powerful Python libraries to build a robust and interpretable resume screening system. Streamlit powers the interactive web interface, allowing users to upload applicant data and visualize analytics effortlessly. Pandas and NumPy handle data manipulation and numerical operations, including experience normalization and feature engineering. SentenceTransformers (via Hugging Face) provides semantic embedding capabilities using the "all-MiniLM-L6-v2 model", enabling intelligent matching between resumes and job descriptions. Seaborn and Matplotlib are used for generating insightful data visualizations such as skill distributions, salary trends, and role frequencies. Additionally, base64 is employed to enable downloading the top candidates’ results directly from the app as a CSV file. Together, these libraries create a full-stack machine learning solution that is both functional and explainable.
 
+
+
+https://github.com/user-attachments/assets/d1c71f9f-d99b-4d1f-8fe5-26d7e6b82243
+
+
+
+
 ⸻
 
 ## 🚀 Features
